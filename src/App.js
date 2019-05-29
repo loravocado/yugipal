@@ -5,6 +5,9 @@ import {Image, Container, Row, Col} from 'react-bootstrap';
 import {Form, FormControl} from 'react-bootstrap';
 import {DropdownButton, Dropdown} from 'react-bootstrap';
 
+import IconButton from '@material-ui/core/IconButton';
+import List from '@material-ui/icons/FormatListBulleted';
+
 function App() {
   return (
     <div>
@@ -33,7 +36,13 @@ function App() {
         <Form inline>
           <Image id='searchIcon' src="https://imgur.com/vKWXWwn.png" responsive />
           <FormControl id='searchBar' type="text" placeholder="Search Stevies Cards" className="mr-sm-2" />
-        </Form>
+            <IconButton aria-label="Delete" id = 'listButton'>
+              <List>
+                <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" />
+              </List>
+            </IconButton>
+            <Button variant="outline-info" id='editButton'>Edit</Button>
+            </Form>
     </div>
     <div>
       <DropdownButton id="dropdown" title="Sort by">

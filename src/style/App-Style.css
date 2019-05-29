@@ -95,3 +95,18 @@
 #dropdownOptions:active {
   background-color: LightSkyBlue;
 }
+
+#listButton {
+  margin-left: 49%
+}
+
+#editButton {
+  border-color: transparent;
+  background-color: WhiteSmoke;
+  color: grey;
+}
+
+#editButton:hover {
+  background-color: LightGrey;
+
+}
