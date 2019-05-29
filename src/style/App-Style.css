@@ -1,0 +1,36 @@
+#button1 {
+  border-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#button1:hover {
+  background-color: LightSkyBlue;
+}
+
+#button2 {
+  margin-left: 49%;
+  border-color: transparent;
+}
+
+#button2:hover {
+  background-color: LightSkyBlue;
+}
+
+#button3 {
+  border-color:transparent;
+}
+
+#button3:hover {
+  background-color: LightSkyBlue;
+}
+
+#logo {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+#hor-line {
+  margin-top: 0;
+}
