@@ -22,7 +22,7 @@ function App() {
         <hr id="hor-line"></hr>
       </div>
       <div>
-      <h2 id= 'title'>Stevies Yugioh Cards </h2> {/* Replace Stevies with name*/}
+      <h2 id= 'title'>Stevies' Yugioh Cards </h2> {/* Replace Stevies with name*/}
       </div>
 
       <div>
@@ -35,7 +35,7 @@ function App() {
       <div>
         <Form inline>
           <Image id='searchIcon' src="https://imgur.com/vKWXWwn.png" responsive />
-          <FormControl id='searchBar' type="text" placeholder="Search Stevies Cards" className="mr-sm-2" />
+          <FormControl id='searchBar' type="text" placeholder="Search Stevies' Cards" className="mr-sm-2" />
             <IconButton aria-label="Delete" id = 'listButton'>
               <List>
                 <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" />
