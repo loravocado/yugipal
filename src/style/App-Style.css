@@ -64,10 +64,34 @@
   border-radius: 5rem;
   width: 30rem;
   height: 1.7rem;
+  background-color: WhiteSmoke;
+  font-size: 0.85rem;
+  border: 0rem;
+  color: grey;
+  margin-bottom: 0rem;
+
 }
 
 #searchIcon {
   margin-left: 4.5rem;
   width: 2rem;
   padding: 0.5rem;
+}
+
+#dropdown {
+  margin-left: 5rem;
+  margin-top:0rem;
+  background-color: transparent;
+  color: black;
+  border: 0rem;
+  padding: 0.05rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+#dropdownOptions {
+  font-size: 0.75rem;
+}
+
+#dropdownOptions:active {
+  background-color: LightSkyBlue;
 }

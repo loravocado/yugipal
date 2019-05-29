@@ -3,6 +3,7 @@ import {Button} from 'react-bootstrap';
 import './style/App-Style.css'
 import {Image, Container, Row, Col} from 'react-bootstrap';
 import {Form, FormControl} from 'react-bootstrap';
+import {DropdownButton, Dropdown} from 'react-bootstrap';
 
 function App() {
   return (
@@ -33,6 +34,13 @@ function App() {
           <Image id='searchIcon' src="https://imgur.com/vKWXWwn.png" responsive />
           <FormControl id='searchBar' type="text" placeholder="Search Stevies Cards" className="mr-sm-2" />
         </Form>
+    </div>
+    <div>
+      <DropdownButton id="dropdown" title="Sort by">
+        <Dropdown.Item id="dropdownOptions" href="#/action-1">Rising Prices</Dropdown.Item>
+        <Dropdown.Item id="dropdownOptions" href="#/action-2">Alphabetically</Dropdown.Item>
+        <Dropdown.Item id="dropdownOptions" href="#/action-3">Rarity</Dropdown.Item>
+      </DropdownButton>;
     </div>
 
   </div>
